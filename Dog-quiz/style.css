@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+
+#game-div, #score-div {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#game-div {
+  background: url("./Assets/den.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#score-div {
+  background: url("./Assets/numbers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#buttons-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#final-score {
+  color: white;
+  font-size: 100px;
+}
+#user-result {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+}
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+#timer {
+  position: fixed;
+  top: 6vh;
+  right: 6vw;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+#score-display {
+  position: fixed;
+  top: 6vh;
+  left: 5vw;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+
+#quiz-section {
+  background-color: white;
+  color: black;
+  max-width: 850px;
+  height: 60%;
+  margin: 20px auto;
+  padding: 3rem;
+  border: 10px solid orange;
+  border-radius: 50px;
+  text-align: center;
+}
+p {
+  font-size: 100px;
+}
+
+button {
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
+
+#question {
+  font-size: 40px;
+}
+.btnanswer {
+  width: 400px;
+  text-align: left;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+  
+}
+#result {
+  margin-top: 20px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+}
+
+.answer-button {
+  visibility: hidden;
+  font-size: 30px;
+}
+
+#score-div {
+  visibility: hidden;
+}
